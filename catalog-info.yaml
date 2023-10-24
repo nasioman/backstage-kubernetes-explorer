@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tap-kubernetes-component
+spec:
+  lifecycle: production
+  type: service
