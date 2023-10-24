@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-kubernetes-explorer
   annotations:
-    github.com/project-slug: nasioman/backstage-kubernetes-explorer
+    backstage.io/kubernetes-id: my-kubernetes-component
+  name: my-kubernetes-component
 spec:
-  type: other
-  lifecycle: unknown
-  owner: guests
+  lifecycle: production
+  owner: my-team
+  type: service
